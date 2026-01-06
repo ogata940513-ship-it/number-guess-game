@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>結果発表！</h2>
+
+<p>正解は <strong>{{ answer }}</strong> でした！</p>
+<p>あなたの試行回数：<strong>{{ attempts }}</strong></p>
+
+<p>
+    <a href="/restart">▶ もう一度遊ぶ</a>
+</p>
+
+<p>
+    <a href="/ranking">🏆 ランキングを見る</a>
+</p>
+
+{% endblock %}

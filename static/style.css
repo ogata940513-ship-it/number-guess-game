@@ -1,0 +1,134 @@
+/* ===== 全体レイアウト ===== */
+body {
+    background: #f5f7fa;
+    margin: 0;
+    font-family: "Hiragino Sans", "Helvetica", sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* ===== ナビゲーション ===== */
+nav {
+    background: #333;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== 見出し ===== */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* ===== フォーム ===== */
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    width: 70%;
+    max-width: 250px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #0078ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background: #005fcc;
+}
+
+/* ===== メッセージ ===== */
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* ===== リンク ===== */
+a {
+    color: #0078ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== ランキングテーブル ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: #eee;
+    padding: 12px;
+    border-bottom: 2px solid #ccc;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover td {
+    background: #f0f8ff;
+}
+/* ナビバーのデザイン */
+nav {
+    background: #222;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #00aaff;  /* ホバーで青に */
+}
