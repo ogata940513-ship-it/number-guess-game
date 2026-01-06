@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>🏆 ランキング</h2>
+
+{% if ranking %}
+    <table>
+        <tr>
+            <th>ユーザー</th>
+            <th>回数</th>
+            <th>日付</th>
+        </tr>
+        {% for r in ranking %}
+        <tr>
+            <td>{{ r.user }}</td>
+            <td>{{ r.score }}</td>
+            <td>{{ r.date }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <p>まだ記録がありません。</p>
+{% endif %}
+
+{% endblock %}
